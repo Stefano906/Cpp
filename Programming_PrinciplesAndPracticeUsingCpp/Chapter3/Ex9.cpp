@@ -16,16 +16,13 @@ int main()
     string string_input = {""};
     string y_n = {""};
     bool again = true;
-    bool find  = true;
-    bool absent = true;
-    int ctn    = 0;
     cout << "Type one of the following choice :\n" << "- zero \n" << "- one\n" << "- two\n" << "- three\n" << "- four \n";
     while(again)
     {   
-        ctn = 0;
+        int ctn = 0;
         cout << "Type : ";
         cin >> string_input;
-        find   = false;
+        bool find   = false;
         while(!find)
         {   
             find    = false;
